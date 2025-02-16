@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="navbar-container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="./image/shop.jpg" alt="">
+            </div>
+            <div class="cart-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <sup class="dynamic-count" >0</sup>
+            </div>
+        </div>
+    </div>
+
+
+<div class="main-container">
+    <div class="renderData"></div>
+    <div class="renderCartData">
+        <div class="empty">
+            <h1>Your Cart Is Empty</h1>
+        </div>
+        <div class="yourCartItem">
+            <div class="cItem">
+                <h1>Your Cart Items</h1>
+            </div>
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+        <div class="tContainer">
+            
+            <p id="total_price" ></p>
+            <a href="./checkout.html"><button>CheckOut</button></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
